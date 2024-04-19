@@ -13,10 +13,10 @@ public class exercicio4 {
         quociente = dividendo%divisor;
 
         if (quociente == 0) {
-            System.out.println("é divisivel por 2");
+            System.out.println("é divisivel por 7");
             
         } else {
-            System.out.println("nao é divisivel por 2");
+            System.out.println("nao é divisivel por 7");
         }
         scanner.close();
 

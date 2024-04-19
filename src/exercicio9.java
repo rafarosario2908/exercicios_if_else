@@ -12,25 +12,24 @@ public class exercicio9 {
          */
         Scanner scanner = new Scanner(System.in);
 
-         double altura ;
-        char sexo ;
-     
+        double altura;
+        char sexo;
+
         System.out.printf("Informe sua altura: ");
         altura = scanner.nextDouble();
-     
+
         System.out.printf("Informe seu sexo M/F: ");
         sexo = scanner.next().charAt(0);
-     
-           if ((sexo == 'M' && altura >= 160 && altura <= 190 ) ||
-              (sexo == 'F' && altura >= 150 && altura <= 180))
-        {
+
+        if ((sexo == 'M' && altura >= 160 && altura <= 190) ||
+                (sexo == 'F' && altura >= 150 && altura <= 180)) {
             System.out.println("Paranbéns,você está dentro dos padrões de altura considerados normais!");
         } else {
             System.out.println("Você não esta dentro dos padrões!");
+
         }
-     
+
         scanner.close();
-        }
-       
     }
 
+}

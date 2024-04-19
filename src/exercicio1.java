@@ -8,15 +8,15 @@ public class exercicio1 {
 
         System.out.println("digite o ano de nascimento");
         int ano = scanner.nextInt();
-        double resultado = (2024-ano);
+        double resultado = (2024 - ano);
 
         if (resultado >= 18) {
             System.out.println("voçê de maior");
-            System.out.println("sua idade é :"+ resultado);
+            System.out.println("sua idade é :" + resultado);
 
         } else {
             System.out.println("voçe é de menor");
-            System.out.println("sua idade é :"+ resultado);
+            System.out.println("sua idade é :" + resultado);
 
         }
 
